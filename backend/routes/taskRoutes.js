@@ -17,3 +17,4 @@ router.get("/:projectId", auth, ctrl.getTasks);
 router.put("/:id", auth, ctrl.updateTask);
 
 module.exports = router;
+
